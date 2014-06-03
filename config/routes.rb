@@ -1,4 +1,6 @@
 Checklist::Application.routes.draw do
+  resources :tabs
+
   root to: "welcome#home"
   get "welcome/about"
   # The priority is based upon order of creation: first created -> highest priority.
